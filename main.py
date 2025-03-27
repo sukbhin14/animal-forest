@@ -3,6 +3,9 @@
 # Shift+F10을(를) 눌러 실행하거나 내 코드로 바꿉니다.
 # 클래스, 파일, 도구 창, 액션 및 설정을 어디서나 검색하려면 Shift 두 번을(를) 누릅니다.
 
+def sukbhin_drink(liquid):
+    print(f'숙빈이가 마신다 {liquid}')
+
 def sukbhin_eat(food):
     print(f'숙빈이가 먹는다 {food}')
 
@@ -15,5 +18,6 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
     sukbhin_eat('chicken')
+    sukbhin_drink('cola')
 
 # https://www.jetbrains.com/help/pycharm/에서 PyCharm 도움말 참조
